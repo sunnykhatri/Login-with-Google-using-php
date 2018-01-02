@@ -10,8 +10,8 @@ Visit www.codecastra.com to get full details on how to create login with google 
 
 For access google OAuth api we need to login into <a target="_blank" href="https://console.cloud.google.com">google developers console</a>.
 <ol>
-<li>Create new project from Project Dropdown menu or select existing project<li>
-<li>From Dashboard click on “Enable Apis and services”. Search for Google+ Api and enable it for access.<li>
+<li>Create new project from Project Dropdown menu or select existing project</li>
+<li>From Dashboard click on “Enable Apis and services”. Search for Google+ Api and enable it for access.</li>
 <li>n the sidbar, select Credentials then select OAuth consent screen tab. 
   <ul>
     <li>Choose Email address which shown with developer info.</li>
@@ -19,8 +19,8 @@ For access google OAuth api we need to login into <a target="_blank" href="https
     <li>Other fields like Homepage Url, Product logo url, Policy and Terms of service url is optional so you can iggnore it.</li>
     <li>At last click on save.</li>
   </ul>  
-<li>
-<li>Select Credentials tab, click the Create credentials drop-down list and select OAuth client ID.<li>
+</li>
+<li>Select Credentials tab, click the Create credentials drop-down list and select OAuth client ID.</li>
 <li>Choose Application type Web Application.
   <ul>
     <li>Specify name you like to add.</li>
@@ -28,7 +28,7 @@ For access google OAuth api we need to login into <a target="_blank" href="https
     <li>Set redirect url in Authorised redirect URIs field.</li>
     <li>Click on create button.</li>
   </ul>  
-<li>
+</li>
 <li>OAuth client Dialogue box will prompt. There are client id and secret key available that need to be defined while calling Google Api.<li>
 </ol>
 
