@@ -37,7 +37,7 @@ if ($googleClient->getAccessToken()) {
 	$url = $gpUserProfile['link'] ?? '';
 	$sql = "SELECT * FROM usersdata WHERE oauthid='".$gpUserProfile['id']."'";
 	$result = $conn->query($sql);
-	if ($result->num_rows > 0) {
+	if ($result->num_rows == 1) {
 	   $conn->query("update usersdata set f_name='".$f_name."', l_name='".$l_name."', email_id='".$email_id."', gender='".$gender."', locale='".$locale."', cover='".$cover."', picture='".$picture."', url='".$url."' where oauthid='".$oauthid."' ");
 	} else {
 		$conn->query("INSERT INTO usersdata (oauth_pro, oauthid, f_name, l_name, email_id, gender, locale, cover, picture, url) VALUES ('".$oauthpro."', '".$oauthid."', '".$f_name."', '".$l_name."', '".$email_id."', '".$gender."', '".$locale."', '".$cover."', '".$picture."', '".$url."')");  
