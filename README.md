@@ -12,7 +12,7 @@ For access google OAuth api we need to login into <a target="_blank" href="https
 <ol>
 <li>Create new project from Project Dropdown menu or select existing project</li>
 <li>From Dashboard click on “Enable Apis and services”. Search for Google+ Api and enable it for access.</li>
-<li>n the sidbar, select Credentials then select OAuth consent screen tab. 
+<li>In the sidbar, select Credentials then select OAuth consent screen tab. 
   <ul>
     <li>Choose Email address which shown with developer info.</li>
     <li>Specify Product name</li>
